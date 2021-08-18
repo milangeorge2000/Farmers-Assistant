@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease</title>
+    <!-- <link href="disease.css" rel="stylesheet"> -->
+    <link href="{{ url_for('static', filename='css/predict.css') }}" rel="stylesheet"> 
+    <style>
+     
+      .result{
+          color:black;
+          font-family:system-ui;
+          font-size: 35px;
+          text-align: center;
+      }
+
+     
+  </style>
+</head>
+<body>
+    <!-- <div class="anay">
+        <p>Result Page</p>
+    </div> -->
+    <p class="result">{{prediction}}</p>
+    <br>
+        <br>
+    <div class="service">
+      </div>
+      <div class="box-area">
+        <div class="single-box">
+          <div class="img-area"></div>
+          <div class="img-text1">
+            <span class="header-text"><strong>Description</strong></span>
+            <p>Plant disease is defined as the state of local or systemic abnormal physiological functioning of a plant, resulting from the continuous, prolonged 'irritation' caused by phytopathogenic.....</p>
+            <a href="description.html">
+            <button>Details</button>
+            </a>
+          </div>
+        </div>
+        <div class="single-box">
+          <div class="img-area"></div>
+          <div class="img-text1">
+            <span class="header-text"><strong>Precaution</strong></span>
+            <p>Protection often involves some cultural practice that modifies the environment <br>such as tillage, drainage,irrigation  <br> altering soil pH......</p>
+            <a href="precaution.html">
+            <button>Details</button>
+            </a>
+          </div>
+        </div>
+        <div class="single-box">
+          <div class="img-area"></div>
+          <div class="img-text1">
+            <span class="header-text"><strong>Remedies</strong></span>
+            <p>Disposal of plant leaves, houseplants and other small debris from  <br>diseased plants is easily accomplished by <br>sealing the debris in a plastic bag....</p>
+            <a href="remedies.html">
+              <button>Details</button>
+            </a>
+         
+          </div>
+        </div>
+      </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,143 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+    .logo img{
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+  
+    }
+  .about{
+      text-align: center;
+      font-family: system-ui;
+      color:	#383838;
+      font-size:40px;
+  }
+  .agrown{
+    color:darkgreen;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  
+  }
+  .farmer{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#303030;
+  }
+  .container{
+    margin:150px auto;
+    padding:5px;
+    padding-left: 140px;
+  
+  
+  }
+  img{
+    float:left;
+    padding: 0 10px 0 0;
+    padding-left: px;
+  
+  }
+  .text{
+    text-align: justify;
+    padding-left: 45%;
+  
+  }
+  .milan{
+    padding-left: 45%;
+    color:#505050;
+    font-family:system-ui;
+  }
+  .service{
+    padding-left: 36%;
+    font-family: system-ui;
+    color:	#383838;
+    font-size:40px;
+  
+  }
+  .img-text1{
+    font-family:system-ui;
+    color:#484848;
+    padding-top: 20px;
+  }
+  .box-area{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:centre;
+    align-items:centre;
+  
+  }
+  .single-box{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height:auto;
+    border-radius: 4px;
+    background-color:#DCDCDC;
+    text-align: center;
+    margin:20px;
+    padding:20px;
+    transition: .3s;
+  }
+  .img-area{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80px;
+    height: 80px;
+    border: 0px solid #A8A8A8 ;
+    border-radius:50%;
+    margin-bottom: 10px;
+    padding:20px;
+    -webkit-backround-size:cover;
+    background-size: cover;
+    background-position:centre centre;
+  }
+  .single-box:nth-child(1) .img-area{
+    /* background-image: url(static/images/crop.jpg); */
+    background-image: url("../images/crop.jpg");
+    
+  }
+  .single-box:nth-child(2) .img-area{
+    /* background-image: url(static/images/cropdisease.jpg); */
+    background-image: url("../images/cropdisease.jpg");
+  }
+  .single-box:nth-child(3) .img-area{
+    /* background-image: url(static/images/fertilizer.jpg); */
+    background-image: url("../images/fertilizer.jpg");
+  }
+  .header-text{
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 40px;
+  }
+  .img-text1 p{
+    font-size:15px;
+    font-weight:400px;
+    line-height:30px;
+  }
+  .single-box:hover{
+    background:#fff;
+  
+  }

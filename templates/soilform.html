@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil form</title>
+    <link href="{{ url_for('static', filename='css/soilform.css') }}" rel="stylesheet"> 
+</head>
+<body>
+<form id="msform" action="/soilpredict" method="post">
+ 
+    <fieldset>
+      <h2 class="fs-title">Find out the most suitable <br>crop to grow in your farm</h2>
+     <br>
+      <input type="text" name="nitrogen" placeholder="Nitrogen (example:50)"/>
+      <input type="text" name="phosphorous" placeholder="Phosphorous (example:50)" />
+      <input type="text" name="pottasium" placeholder="Pottasium (example:50)" />
+      <input type="text" name="temperature" placeholder="Temperature (enter value in degree)" />
+      <input type="text" name="humidity" placeholder="Humidity (enter the value)" />
+      <input type="text" name="phlevel" placeholder="ph level (enter the value)" />
+      <input type="text" name="rainfall" placeholder="Rainfall (enter the value in mm)" />
+    </fieldset>
+    <input type="submit" name="submit" class="next action-button" value="submit" />
+  </form>
+  <script src="{{ url_for('static', filename='js/soilform.js') }}" type="text/javascript"></script>
+</body>
+</html>

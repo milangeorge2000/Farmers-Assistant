@@ -1,0 +1,91 @@
+.service{
+    padding-left: 36%;
+    font-family: system-ui;
+    color:	#fff;
+    font-size:40px;
+  
+  }
+  .img-text1{
+    font-family:system-ui;
+    color:#484848;
+    padding-top: 20px;
+  }
+  .box-area{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:centre;
+    align-items:centre;
+  
+  }
+  .single-box{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height:auto;
+    border-radius: 4px;
+    background-color:#DCDCDC;
+    text-align: center;
+    margin:20px;
+    padding:49px;
+    transition: .3s;
+  }
+  .img-area{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80px;
+    height: 80px;
+    border: 0px solid #fff ;
+    border-radius:50%;
+    margin-bottom: 10px;
+    padding:20px;
+    -webkit-backround-size:cover;
+    background-size: cover;
+    background-position:centre centre;
+  }
+  .single-box:nth-child(1) .img-area{
+    background-image: url(static/remedies.jpg);
+  }
+  .single-box:nth-child(2) .img-area{
+    background-image: url(static/prevent.jpg);
+  }
+  .single-box:nth-child(3) .img-area{
+    background-image: url(static/fertilizer.jpg);
+  }
+  .header-text{
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 40px;
+  }
+  .img-text1 p{
+    font-size:15px;
+    font-weight:400px;
+    line-height:30px;
+  }
+  .single-box:hover{
+    background:linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));;
+  
+  }
+
+
+
+
+
+       
+
+html {
+height: 100%;
+
+background:
+linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+/*css*/
+}
+.anay{
+    color:#202020;
+    font-family:system-ui;
+    font-size: 30px;
+    text-align: center;
+}
